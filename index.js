@@ -16,7 +16,7 @@ const detailSchema = new mongoose.Schema({
 
 const user = mongoose.model("userinfo", detailSchema);
 //connection mongodb
-
+//reference geeksforgeeks
 app.use(cors());
 app.use(express.json());
 
